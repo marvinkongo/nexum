@@ -1,0 +1,48 @@
+.shopping-cart {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  font-size: 14px;
+
+  &__items {
+    text-align: right;
+  }
+
+  &__item {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  &__prices {
+  }
+
+  &__sum {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__label {
+  }
+
+  &__value {
+  }
+
+  &__vad {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__deliveryCosts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__divider {
+  }
+
+  &__totalSum {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,17 @@
+.addresses {
+  display: flex;
+
+  &__billing-address {
+    flex: 1 1 50%;
+    max-width: 50%;
+    width: 50%;
+    margin: 0 10px;
+  }
+
+  &__delivery-address {
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin: 0 10px;
+    width: 50%;
+  }
+}

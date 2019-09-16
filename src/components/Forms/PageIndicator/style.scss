@@ -1,0 +1,38 @@
+.page-indicator {
+  display: flex;
+  margin: 0 50px;
+  margin-top: 30px;
+  justify-content: space-between;
+  text-align: center;
+
+  &__step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    &--active {
+      .page-indicator__step-count {
+        background: green;
+        color: white;
+      }
+
+      .page-indicator__step_name {
+      }
+    }
+  }
+
+  &__step-count {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+  }
+
+  &__step-name {
+    margin: 10px 0;
+  }
+}

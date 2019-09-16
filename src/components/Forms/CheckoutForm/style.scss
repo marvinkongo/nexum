@@ -1,0 +1,29 @@
+.checkout-form {
+  padding: 30px 0px;
+  display: flex;
+  width: 940px;
+  margin: 20px auto 0;
+  justify-content: space-between;
+
+  &__form {
+    flex: 1 1 80%;
+    max-width: 70%;
+    width: 70%;
+    //border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 10px 10px 40px;
+    position: relative;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  &__shopping-cart {
+    flex: 1 1 18%;
+    max-width: 18%;
+    width: 18%;
+  }
+}

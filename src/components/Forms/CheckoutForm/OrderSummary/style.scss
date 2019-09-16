@@ -1,0 +1,38 @@
+.order-summary {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  &__information {
+    display: flex;
+  }
+  &__billing-address {
+    flex: 1 1 50%;
+    max-width: 50%;
+    width: 50%;
+    margin: 0 10px;
+  }
+
+  &__delivery-address {
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin: 0 10px;
+    width: 50%;
+  }
+
+  &__payment {
+    padding: 10px 10px;
+    display: none;
+    flex: 1 1 100%;
+  }
+
+  &__options {
+    padding: 10px;
+  }
+
+  &__submit {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
